@@ -1,0 +1,18 @@
+{
+  "entry": "src/index.js",
+  "port":3000,
+  "BROWSER":"none",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime"
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime"
+      ]
+    }
+  }
+}
